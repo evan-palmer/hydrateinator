@@ -1,6 +1,8 @@
 #include "wedding_bot.h"
 
 void setup() {
+  Serial.begin(9600);
+
   // configure the pump
   pinMode(PUMP_INA1_PIN, OUTPUT);
   pinMode(PUMP_INA2_PIN, OUTPUT);
@@ -21,7 +23,7 @@ void loop() {
     if (!is_manipulator_ready()) {
       move_to_fill_position();
     } else {
-      const unsigned long start_time = millis();
+      unsigned long start_time = millis();
       run_pump();
 
       while (is_cup_present() && (millis() - start_time) < MAX_FILL_TIME_MS) {
@@ -35,6 +37,8 @@ void loop() {
     stop_pump();
     move_to_stow_position();
   }
+
+  delay(10);
 }
 
 int normalize_speed(float speed) {

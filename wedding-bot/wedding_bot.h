@@ -7,9 +7,9 @@ const uint8_t PUMP_INA2_PIN = 3;
 const uint8_t PUMP_PWMA_PIN = 4;
 
 // UR GPIO pins
-const uint8_t UR_READY_PIN = 5;
-const uint8_t UR_TO_HOLDER_PIN = 6;
-const uint8_t UR_TO_STOW_PIN = 7;
+const uint8_t UR_READY_PIN = 9;
+const uint8_t UR_TO_HOLDER_PIN = 11;
+const uint8_t UR_TO_STOW_PIN = 10;
 
 // PWM configuration
 const uint8_t PWM_MIN = 0;
