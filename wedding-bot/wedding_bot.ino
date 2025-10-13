@@ -1,8 +1,6 @@
 #include "wedding_bot.h"
 
 void setup() {
-  Serial.begin(9600);
-
   // configure the pump
   pinMode(PUMP_INA1_PIN, OUTPUT);
   pinMode(PUMP_INA2_PIN, OUTPUT);
