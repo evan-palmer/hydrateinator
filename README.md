@@ -25,3 +25,7 @@ were printed using a Prusa XL, and can be found in the `models/` directory.
 | Foldable Table | $44.98 | [Home Depot Link](https://www.homedepot.com/p/Lifetime-4-ft-One-Hand-Adjustable-Height-Fold-in-Half-Resin-Table-Almond-80943/322152748) |
 | 5 Gallon Water Jug | $33.85 | [Amazon Link](https://www.amazon.com/Gallon-Plastic-Crown-Bottle-Container/dp/B01LZQFIFO?sr=8-3) |
 | IR Break Beam Sensors | $2.95 | [Adafruit Link](https://www.adafruit.com/product/2167) |
+
+## License
+
+This project has been released under the MIT license.
