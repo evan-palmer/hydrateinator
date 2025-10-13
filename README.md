@@ -1,6 +1,6 @@
 # Hydrate-inator
 
-![Hyrdate-inator](/media/IMG_8585.mp4)
+https://github.com/evan-palmer/wedding-bot/blob/main/media/deployment.mp4
 
 The Hydrate-inator is a drink serving robot that was used in my 
 wedding. The project was put together by myself (Evan Palmer) and 
